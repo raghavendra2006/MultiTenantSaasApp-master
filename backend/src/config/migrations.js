@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const pool = require("./database");
 
+
 async function runMigrations() {
   console.log("Starting database migrations...");
   const migrationsDir = path.join(__dirname, "../../migrations");
