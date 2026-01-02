@@ -1,5 +1,4 @@
 # Multi-Tenant SaaS Platform
-
 A comprehensive, production-ready SaaS platform with tenant management, user management, project tracking, and task management capabilities. Complete with REST APIs, responsive React UI, PostgreSQL database, and Docker containerization.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
