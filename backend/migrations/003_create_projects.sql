@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS projects (
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
 CREATE INDEX IF NOT EXISTS idx_projects_tenant_id ON projects(tenant_id);
 CREATE INDEX IF NOT EXISTS idx_projects_created_by ON projects(created_by);
 CREATE INDEX IF NOT EXISTS idx_projects_status ON projects(status);

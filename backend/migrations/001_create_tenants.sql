@@ -13,3 +13,4 @@ CREATE TABLE IF NOT EXISTS tenants (
 
 CREATE INDEX IF NOT EXISTS idx_tenants_subdomain ON tenants(subdomain);
 CREATE INDEX IF NOT EXISTS idx_tenants_status ON tenants(status);
+
