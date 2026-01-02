@@ -1,6 +1,7 @@
 const pool = require("../config/database");
 const { auditLog } = require("../utils/auditLogger");
 
+
 // API 5: Get Tenant Details
 const getTenantDetails = async (req, res) => {
   try {

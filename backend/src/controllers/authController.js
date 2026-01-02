@@ -4,6 +4,7 @@ const pool = require("../config/database");
 const { generateToken } = require("../utils/tokenGenerator");
 const { auditLog } = require("../utils/auditLogger");
 
+
 // API 1: Tenant Registration
 const registerTenant = async (req, res) => {
   const client = await pool.connect();

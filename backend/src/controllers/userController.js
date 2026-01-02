@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const pool = require("../config/database");
 const { auditLog } = require("../utils/auditLogger");
 
+
 // API 8: Add User to Tenant
 const addUserToTenant = async (req, res) => {
   try {
