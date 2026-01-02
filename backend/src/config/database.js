@@ -1,6 +1,7 @@
 const { Pool } = require("pg");
 require("dotenv").config();
 
+
 // Use DATABASE_URL for production (Render) or individual vars for local development
 const pool = new Pool(
   process.env.DATABASE_URL
