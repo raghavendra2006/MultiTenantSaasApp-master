@@ -8,6 +8,7 @@ const tenantMiddleware = async (req, res, next) => {
       return next();
     }
 
+    
     // For other users, set tenant from JWT
     req.tenantId = req.user.tenantId;
 
