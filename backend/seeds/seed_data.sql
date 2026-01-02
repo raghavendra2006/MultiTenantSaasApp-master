@@ -1,5 +1,6 @@
 -- Seed Data for Multi-Tenant SaaS Application
 
+
 -- Insert Super Admin User (tenant_id is NULL)
 -- Password: Admin@123
 INSERT INTO users (id, tenant_id, email, password_hash, full_name, role, is_active)
